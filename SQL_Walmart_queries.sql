@@ -152,25 +152,6 @@ SELECT
 FROM sales
 GROUP BY product_line;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- Which branch sold more products than average product sold?
 select branch,
 	sum(quantity) as qty
